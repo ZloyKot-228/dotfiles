@@ -29,7 +29,7 @@ config.font = wezterm.font("BigBlueTermPlus Nerd Font Mono")
 -- config.font = wezterm.font("M+ 1m")
 -- config.font = wezterm.font("Hack Regular")
 -- config.cell_width = 0.9
-config.window_background_opacity = 0.9
+config.window_background_opacity = 1.0
 config.prefer_egl = true
 config.font_size = 16.0
 
@@ -66,6 +66,7 @@ end)
 
 -- keymaps
 config.keys = {
+{ key = 'f', mods = 'CTRL|SHIFT', action = wezterm.action.ToggleFullScreen },
 	{
 		key = "E",
 		mods = "CTRL|SHIFT|ALT",
