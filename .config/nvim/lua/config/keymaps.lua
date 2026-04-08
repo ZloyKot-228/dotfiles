@@ -24,14 +24,17 @@ vim.opt.whichwrap:append("h,l")
 
 -- Terminal
 vim.keymap.set("n", "<A-I>", function()
-  Snacks.terminal(nil, { win = { position = "float", width = 125, height = 30, border = "rounded" } })
+  Snacks.terminal(nil, { win = { position = "float", width = 125, height = 30, border = "none" } })
 end, { desc = "Terminal (root)" })
 
 vim.keymap.set("n", "<A-i>", function()
   Snacks.terminal(
     nil,
-    { cwd = LazyVim.root(), win = { position = "float", width = 125, height = 30, border = "rounded" } }
+    { cwd = LazyVim.root(), win = { position = "float", width = 125, height = 30, border = "none" } }
   )
 end, { desc = "Terminal (cwd)" })
 
 vim.keymap.set("t", "<A-i>", "<cmd>close<cr>", { desc = "Hide Terminal" })
+
+vim.keymap.set("n", "<leader>t", "<cmd>terminal<CR>", { desc = "Open terminal buffer" })
+vim.keymap.set("t", "<A-e>", "<C-\\><C-n>", { desc = "Leave terminal mode" })
