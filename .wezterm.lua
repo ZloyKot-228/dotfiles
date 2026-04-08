@@ -19,7 +19,7 @@ config.term = "xterm-256color" -- Set the terminal type
 -- config.font = wezterm.font("Monocraft Nerd Font")
 -- config.font = wezterm.font("FiraCode Nerd Font Mono")
 config.font = wezterm.font("JetBrainsMono Nerd Font Mono")
-config.cell_width = 0.9
+config.cell_width = 1.1
 -- config.font = wezterm.font("Menlo Regular")
 -- config.font = wezterm.font("BigBlueTermPlus Nerd Font Mono")
 -- config.font = wezterm.font("Monoid Retina")
@@ -214,7 +214,7 @@ config.window_frame = {
 
 -- config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
 config.window_decorations = "NONE | RESIZE"
-config.default_prog = { "bash" }
+config.default_prog = { "zsh" }
 config.initial_cols = 90
 config.initial_rows = 20
 -- config.window_background_image = "C:/dev/misc/berk.png"
