@@ -1,0 +1,2 @@
+sudo dnf copr enable lionheartp/Hyprland
+sudo dnf install noctalia-hyprland-meta hypridle hyprlock
