@@ -149,6 +149,11 @@
                     "usePadding": false
                 },
                 {
+                    "defaultSettings": {
+                        "connectedColor": "primary",
+                        "disconnectedColor": "none",
+                        "refreshInterval": 5000
+                    },
                     "id": "plugin:cloudflare-warp"
                 },
                 {
@@ -261,7 +266,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
-        "predefinedScheme": "Catppuccin",
+        "predefinedScheme": "catppuccin_orange",
         "schedulingMode": "off",
         "syncGsettings": true,
         "useWallpaperColors": false
@@ -685,7 +690,7 @@
         "showHiddenFiles": true,
         "skipStartupTransition": false,
         "solidColor": "#1a1a2e",
-        "sortOrder": "name_desc",
+        "sortOrder": "date_asc",
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
         "transitionType": [
