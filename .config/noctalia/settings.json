@@ -33,7 +33,8 @@
             "net.lutris.Lutris",
             "timeshift-gtk",
             "io.github.Hexchat",
-            "org.inkscape.Inkscape"
+            "org.inkscape.Inkscape",
+            "FreeCAD"
         ],
         "position": "center",
         "screenshotAnnotationTool": "",
