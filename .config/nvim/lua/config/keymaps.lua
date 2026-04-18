@@ -38,3 +38,6 @@ vim.keymap.set("t", "<A-i>", "<cmd>close<cr>", { desc = "Hide Terminal" })
 
 vim.keymap.set("n", "<leader>t", "<cmd>terminal<CR>", { desc = "Open terminal buffer" })
 vim.keymap.set("t", "<A-e>", "<C-\\><C-n>", { desc = "Leave terminal mode" })
+
+-- Debug
+vim.keymap.set("n", "<leader>dd", "<cmd>DapDisasm<CR>", { desc = "Disassembler" })
