@@ -246,6 +246,15 @@ alias la='ls -A'
 alias l='ls -CF'
 alias ass='eval "$(ssh-agent -s)"; ssh-add ~/ssh_key'
 
+# For nixos convenient
+rebuild() {
+    if [[ -z "$1" ]]; then
+        echo "Usage: rebuild <config-name>"
+        return 1
+    fi
+    sudo nixos-rebuild switch --flake "/etc/nixos#$1"
+}
+
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
