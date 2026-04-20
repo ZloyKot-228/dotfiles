@@ -253,7 +253,7 @@ rebuild() {
         echo "Usage: rebuild <config-name>"
         return 1
     fi
-    sudo nixos-rebuild switch --flake "/etc/nixos#$1"
+    sudo nixos-rebuild switch --flake "~/.nixos#$1"
 }
 
 # enable auto-suggestions based on the history
