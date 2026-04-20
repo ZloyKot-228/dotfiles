@@ -241,6 +241,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
+alias ls='ls --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
@@ -268,3 +269,4 @@ if [ -f /etc/zsh_command_not_found ]; then
 fi
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+configure_prompt
