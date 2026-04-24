@@ -1,0 +1,11 @@
+# For nixos convenient
+rebuild() {
+    if [[ -z "$1" ]]; then
+        echo "Usage: rebuild <config-name>"
+        return 1
+    fi
+    sudo nixos-rebuild switch --flake "${HOME}/.nixos#$1"
+}
+
+alias updall='nix flake update "${HOME}/.nixos"'
+alias ass='eval "$(ssh-agent -s)"; ssh-add ~/.ssh/id_ed25519'

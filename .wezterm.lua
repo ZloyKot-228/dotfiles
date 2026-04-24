@@ -216,7 +216,7 @@ config.window_frame = {
 
 -- config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
 config.window_decorations = "NONE"
-config.default_prog = { "zsh" }
+config.default_prog = { "bash" }
 config.initial_cols = 80
 config.initial_rows = 20
 -- config.window_background_image = "C:/dev/misc/berk.png"
