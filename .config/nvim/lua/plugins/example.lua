@@ -147,4 +147,8 @@ return {
       },
     },
   },
+
+  {
+    "direnv/direnv.vim",
+  },
 }
