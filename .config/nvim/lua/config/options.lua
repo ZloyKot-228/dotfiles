@@ -8,6 +8,8 @@ vim.opt.wrap = false
 
 vim.opt.shada = "'100,<0,s10,h"
 
-vim.o.shell = "zsh"
+vim.o.shell = "bash"
+
+vim.g.autoformat = false
 
 -- shada_std = "'100,<50,s10,h"
