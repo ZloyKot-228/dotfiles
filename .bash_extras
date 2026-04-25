@@ -7,5 +7,5 @@ rebuild() {
     sudo nixos-rebuild switch --flake "${HOME}/.nixos#$1"
 }
 
-alias updall='nix flake update "${HOME}/.nixos"'
+alias updall='nix flake update --flake "${HOME}/.nixos"'
 alias ass='eval "$(ssh-agent -s)"; ssh-add ~/.ssh/id_ed25519'
