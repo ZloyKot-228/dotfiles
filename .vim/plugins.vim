@@ -42,3 +42,6 @@ endfunction
 " Braces
 let g:AutoPairsMapCR = 1
 let g:AutoPairsMapSpace = 1
+
+" Tree
+let g:NERDTreeShowHidden = 1
