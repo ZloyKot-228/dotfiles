@@ -12,4 +12,6 @@ vim.o.shell = "bash"
 
 vim.g.autoformat = false
 
+vim.opt.relativenumber = false
+
 -- shada_std = "'100,<50,s10,h"
