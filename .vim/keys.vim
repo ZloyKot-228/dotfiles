@@ -12,7 +12,8 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 nnoremap <Leader>ss :vsplit<CR>
 nnoremap <Leader>s- :split<CR>
-nnoremap <Leader>q :bd<CR>
+nnoremap <Leader>q :bd!<CR>
 
 " Nerd tree
 nnoremap <Leader>e :NERDTreeToggle<CR>
+

@@ -9,6 +9,8 @@ set softtabstop=2
 set tabstop=2
 set smartindent
 set clipboard=unnamedplus
+set hidden
+set bufhidden=hide
 
 syntax on
 
