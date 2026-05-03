@@ -45,3 +45,5 @@ let g:AutoPairsMapSpace = 1
 
 " Tree
 let g:NERDTreeShowHidden = 1
+let g:NERDTreeMapActivateNode = 'l'
+let g:NERDTreeMapCloseDir = 'h'

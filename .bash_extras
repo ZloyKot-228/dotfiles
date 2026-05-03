@@ -9,3 +9,5 @@ rebuild() {
 
 alias updall='nix flake update --flake "${HOME}/.nixos"'
 alias ass='eval "$(ssh-agent -s)"; ssh-add ~/.ssh/id_ed25519'
+alias lg='lazygit'
+alias dui='lazydocker'
